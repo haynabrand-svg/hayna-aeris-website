@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAYNA AÉRIS — La Finesse au Service de ta Pudeur</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Playfair Display & Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'hayna-ivory': '#F4F2EE',
+                        'hayna-charcoal': '#1C1C1C',
+                        'hayna-navy': '#1A2A40',
+                        'hayna-sage': '#9CAF88',
+                        'hayna-blue': '#A3BFD9',
+                        'hayna-sand': '#D9CDB8',
+                    },
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['Montserrat', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Montserrat', sans-serif; background-color: #F4F2EE; color: #1C1C1C; }
+        h1, h2, h3, .font-serif { font-family: 'Playfair Display', serif; }
+    </style>
+</head>
+<body class="bg-hayna-ivory text-hayna-charcoal antialiased selection:bg-hayna-sand selection:text-hayna-charcoal">
+
+    <!-- 1. BARRE D'ANNONCE -->
+    <div class="bg-hayna-navy text-white text-xs py-2.5 text-center tracking-widest uppercase font-light">
+        Livraison Offerte dès 150€ &nbsp;|&nbsp; Expérience Avatar 3D Active pour le Drop
+    </div>
+
+    <!-- 2. NAVIGATION ET HEADER -->
+    <header class="sticky top-0 z-50 bg-hayna-ivory/90 backdrop-blur-md border-b border-hayna-sand/40 transition-all">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <nav class="hidden md:flex space-x-8 text-xs uppercase tracking-widest font-medium">
+                <a href="#collections" class="hover:text-hayna-sage transition">Collections</a>
+                <a href="#universe" class="hover:text-hayna-sage transition">L'Univers</a>
+                <a href="#avatar-section" class="hover:text-hayna-sage font-semibold text-hayna-navy">Avatar 3D</a>
+                <a href="#journal" class="hover:text-hayna-sage transition">Le Journal</a>
+            </nav>
+
+            <a href="#" class="text-center group">
+                <span class="block text-xl md:text-2xl font-serif tracking-widest font-semibold text-hayna-charcoal group-hover:text-hayna-navy transition">HAYNA AÉRIS</span>
+                <span class="block text-[9px] tracking-[0.3em] uppercase text-hayna-sage font-light -mt-1">Soft Modest Luxury</span>
+            </a>
+
+            <div class="flex items-center space-x-6 text-xs uppercase tracking-widest">
+                <button class="hidden sm:block hover:opacity-75">Recherche</button>
+                <button class="bg-hayna-charcoal text-white px-5 py-2.5 rounded-full text-[11px] tracking-widest hover:bg-hayna-navy transition shadow-sm">
+                    Panier (0)
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- 3. HERO SECTION (ACCUEIL) -->
+    <section class="relative h-[85vh] flex items-center justify-center overflow-hidden">
+        <!-- Overlay Sombre subtil sur la vidéo -->
+        <div class="absolute inset-0 bg-black/25 z-10"></div>
+        <!-- Vidéo ou Image de fond HD -->
+        <div class="absolute inset-0 bg-hayna-navy">
+            <!-- Remplace la source par ta vidéo ou photo de fond -->
+            <img src="assets/hero-cover.jpg" alt="Hayna Aéris Collection" class="w-full h-full object-cover opacity-80" />
+        </div>
+
+        <div class="relative z-20 text-center text-white px-6 max-w-3xl">
+            <p class="text-xs tracking-[0.4em] uppercase font-light mb-4 text-hayna-sand">Haute Couture Modeste</p>
+            <h1 class="text-4xl md:text-6xl font-serif font-normal italic tracking-wide leading-tight mb-6">
+                La Finesse au Service de ta Pudeur
+            </h1>
+            <p class="text-sm md:text-base font-light tracking-wide text-gray-200 mb-8 max-w-xl mx-auto leading-relaxed">
+                Une élégance silencieuse. Des silhouettes fluides pensées pour respirer. Inspirées par le mouvement des créatures marines.
+            </p>
+            <a href="#collections" class="inline-block bg-white text-hayna-charcoal px-8 py-3.5 rounded-full text-xs uppercase tracking-widest font-medium hover:bg-hayna-sand transition shadow-lg">
+                Découvrir le Drop 2026
+            </a>
+        </div>
+    </section>
+
+    <!-- 4. SECTION D'AVATAR 3D EXCLUSIF -->
+    <section id="avatar-section" class="py-20 bg-white border-y border-hayna-sand/30">
+        <div class="max-w-5xl mx-auto px-6 text-center">
+            <span class="inline-block bg-hayna-blue/20 text-hayna-navy text-[10px] tracking-widest uppercase px-4 py-1.5 rounded-full font-medium mb-4">
+                ✨ Exclusivité du Lancement — Disponible ce mois-ci
+            </span>
+            <h2 class="text-3xl md:text-4xl font-serif font-normal text-hayna-charcoal mb-4">
+                Crée Ton Avatar 3D Sur-Mesure
+            </h2>
+            <p class="text-xs md:text-sm text-gray-600 max-w-2xl mx-auto mb-10 leading-relaxed font-light">
+                Indique tes mensurations réelles (taille, poids, poitrine, hanches) pour tester en temps réel le tombé et la fluidité de nos tenues amples sur ton propre mannequin virtuel avant de commander.
+            </p>
+
+            <div class="bg-hayna-ivory p-8 rounded-2xl border border-hayna-sand/40 shadow-sm max-w-xl mx-auto text-left">
+                <div class="space-y-4 text-xs">
+                    <div>
+                        <label class="block text-gray-700 uppercase tracking-wider mb-2">Taille (cm) & Poids (kg)</label>
+                        <div class="grid grid-cols-2 gap-4">
+                            <input type="number" placeholder="ex: 168 cm" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-hayna-navy bg-white">
+                            <input type="number" placeholder="ex: 58 kg" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-hayna-navy bg-white">
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-gray-700 uppercase tracking-wider mb-2">Morphologie principale</label>
+                        <select class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-hayna-navy bg-white">
+                            <option>Silhouette Ample / Coupe Fluide</option>
+                            <option>Silhouette en A (Hanches plus marquées)</option>
+                            <option>Silhouette en H (Lignes droites)</option>
+                            <option>Silhouette en X / V</option>
+                        </select>
+                    </div>
+                    <button onclick="alert('Simulation d\'essayage virtuel lancée !')" class="w-full bg-hayna-navy text-white py-3.5 rounded-lg uppercase tracking-widest text-xs font-medium hover:bg-hayna-charcoal transition mt-2">
+                        Générer Mon Avatar & Essayer les Tenues
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. LES 4 MODÈLES PHARES DE LA COLLECTION -->
+    <section id="collections" class="py-24 max-w-7xl mx-auto px-6">
+        <div class="text-center mb-16">
+            <p class="text-xs uppercase tracking-[0.3em] text-hayna-sage font-medium mb-2">Sélection Phare</p>
+            <h2 class="text-3xl md:text-4xl font-serif text-hayna-charcoal">La Collection de Lancement</h2>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            
+            <!-- PRODUIT 1 -->
+            <div class="group cursor-pointer">
+                <div class="relative overflow-hidden rounded-xl bg-white aspect-[3/4] mb-4">
+                    <img src="assets/look1.jpg" alt="Robe-Tunique Silent Flow" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <span class="absolute top-3 left-3 bg-white/90 text-[10px] uppercase tracking-wider px-2.5 py-1 rounded">Lin Lavé & Bambou</span>
+                </div>
+                <h3 class="font-serif text-lg text-hayna-charcoal">Silent Flow</h3>
+                <p class="text-xs text-gray-500 font-light mb-2">Robe-Tunique Poétique avec Lotus Brodé</p>
+                <div class="flex items-center justify-between">
+                    <span class="text-sm font-medium text-hayna-navy">185 €</span>
+                    <button class="text-xs uppercase tracking-widest text-hayna-sage font-medium hover:underline">Essayage 3D</button>
+                </div>
+            </div>
+
+            <!-- PRODUIT 2 -->
+            <div class="group cursor-pointer">
+                <div class="relative overflow-hidden rounded-xl bg-white aspect-[3/4] mb-4">
+                    <img src="assets/look2.jpg" alt="Abaya Nour" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <span class="absolute top-3 left-3 bg-white/90 text-[10px] uppercase tracking-wider px-2.5 py-1 rounded">Bambou Fluide</span>
+                </div>
+                <h3 class="font-serif text-lg text-hayna-charcoal">Abaya "Nour"</h3>
+                <p class="text-xs text-gray-500 font-light mb-2">Design Épuré & Panneau Latéral Subtil</p>
+                <div class="flex items-center justify-between">
+                    <span class="text-sm font-medium text-hayna-navy">210 €</span>
+                    <button class="text-xs uppercase tracking-widest text-hayna-sage font-medium hover:underline">Essayage 3D</button>
+                </div>
+            </div>
+
+            <!-- PRODUIT 3 -->
+            <div class="group cursor-pointer">
+                <div class="relative overflow-hidden rounded-xl bg-white aspect-[3/4] mb-4">
+                    <img src="assets/look3.jpg" alt="Tunique Seren" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <span class="absolute top-3 left-3 bg-white/90 text-[10px] uppercase tracking-wider px-2.5 py-1 rounded">Japandi Minimal</span>
+                </div>
+                <h3 class="font-serif text-lg text-hayna-charcoal">Tunique "Seren"</h3>
+                <p class="text-xs text-gray-500 font-light mb-2">Lignes Droites & Broderie au Poignet</p>
+                <div class="flex items-center justify-between">
+                    <span class="text-sm font-medium text-hayna-navy">145 €</span>
+                    <button class="text-xs uppercase tracking-widest text-hayna-sage font-medium hover:underline">Essayage 3D</button>
+                </div>
+            </div>
+
+            <!-- PRODUIT 4 -->
+            <div class="group cursor-pointer">
+                <div class="relative overflow-hidden rounded-xl bg-white aspect-[3/4] mb-4">
+                    <img src="assets/look4.jpg" alt="Jellyfish Flow Set" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <span class="absolute top-3 left-3 bg-white/90 text-[10px] uppercase tracking-wider px-2.5 py-1 rounded">Organza & Voile</span>
+                </div>
+                <h3 class="font-serif text-lg text-hayna-charcoal">Jellyfish Flow Set</h3>
+                <p class="text-xs text-gray-500 font-light mb-2">Veste & Pantalon Wide-Leg Inspiré Méduse</p>
+                <div class="flex items-center justify-between">
+                    <span class="text-sm font-medium text-hayna-navy">240 €</span>
+                    <button class="text-xs uppercase tracking-widest text-hayna-sage font-medium hover:underline">Essayage 3D</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 6. JOURNAL & BTS (BEHIND THE SCENES) -->
+    <section id="journal" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-12">
+                <p class="text-xs uppercase tracking-[0.3em] text-hayna-sage font-medium mb-2">Atelier Notes</p>
+                <h2 class="text-3xl font-serif text-hayna-charcoal">Le Journal Hayna Aéris</h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div class="rounded-2xl overflow-hidden aspect-[4/3] bg-hayna-ivory">
+                    <img src="assets/journal-bts.jpg" alt="L'Atelier de création" class="w-full h-full object-cover">
+                </div>
+                <div class="space-y-6">
+                    <span class="text-[10px] uppercase tracking-widest text-hayna-sage font-semibold">Behind The Scenes</span>
+                    <h3 class="text-2xl font-serif leading-snug">
+                        L'Art de la Fluidité : Créer des Pièces Respirantes Inspirées de l'Océan
+                    </h3>
+                    <p class="text-xs text-gray-600 leading-relaxed font-light">
+                        Chaque vêtement de la collection 2026 est conçu pour accompagner vos mouvements sans jamais contrainte. Du choix de la maille bambou éco-responsable jusqu'à la découpe des pans asymétriques rappelant les tentacules de la méduse, découvrez l'histoire de nos pièces signatures.
+                    </p>
+                    <a href="#" class="inline-block text-xs uppercase tracking-widest font-medium text-hayna-navy hover:text-hayna-sage transition border-b border-hayna-navy pb-1">
+                        Lire l'Article Complet
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. NEWSLETTER VIP -->
+    <section class="py-20 bg-hayna-navy text-white text-center">
+        <div class="max-w-xl mx-auto px-6 space-y-6">
+            <h2 class="text-2xl md:text-3xl font-serif font-normal">Rejoignez le Cercle Privé</h2>
+            <p class="text-xs text-gray-300 font-light leading-relaxed">
+                Inscrivez-vous pour bénéficier d'un accès anticipé aux futurs drops, tester les nouvelles fonctionnalités en avant-première et recevoir nos notes d'atelier.
+            </p>
+            <form class="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
+                <input type="email" placeholder="Votre adresse email" class="w-full px-5 py-3 rounded-full text-xs text-hayna-charcoal focus:outline-none bg-white">
+                <button type="submit" class="bg-hayna-sand text-hayna-charcoal font-medium px-8 py-3 rounded-full text-xs uppercase tracking-widest hover:bg-white transition whitespace-nowrap">
+                    S'inscrire
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- 8. FOOTER -->
+    <footer class="bg-hayna-charcoal text-white text-xs py-12 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 text-gray-400 font-light">
+            <div>
+                <p class="font-serif text-white text-lg mb-3">HAYNA AÉRIS</p>
+                <p class="text-[11px] leading-relaxed">
+                    La finesse au service de ta pudeur.<br>
+                    Marque internationale de mode modeste haut de gamme.
+                </p>
+            </div>
+            <div class="space-y-2">
+                <p class="text-white uppercase tracking-widest text-[11px] font-medium mb-3">Informations</p>
+                <p><a href="#" class="hover:text-white transition">Guide des Tailles</a></p>
+                <p><a href="#" class="hover:text-white transition">Entretien des Matières</a></p>
+                <p><a href="#" class="hover:text-white transition">Livraison & Retours</a></p>
+            </div>
+            <div class="space-y-2">
+                <p class="text-white uppercase tracking-widest text-[11px] font-medium mb-3">Suivez-nous</p>
+                <p><a href="#" class="hover:text-white transition">Instagram @hayna.aeris</a></p>
+                <p><a href="#" class="hover:text-white transition">TikTok</a></p>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-6 mt-12 pt-6 border-t border-gray-800 text-center text-[10px] text-gray-500">
+            © 2026 HAYNA AÉRIS. Tous droits réservés.
+        </div>
+    </footer>
+
+</body>
+</html>
